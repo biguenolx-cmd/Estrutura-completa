@@ -1,0 +1,13 @@
+[user]
+	name = Gustavo Aguiar
+	email = 312041353+beasgleno@users.noreply.github.com
+[core]
+	autocrlf = false
+	editor = \"C:\\Users\\beasglenolx\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[safe]
+	directory = C:/Users/Public/Documents
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
